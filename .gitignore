@@ -10,3 +10,5 @@ core.*
 .breakpoints
 .idea/
 .vscode/
+
+node_modules/
