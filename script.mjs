@@ -1,4 +1,4 @@
-export const hello = 'world'
+export const hello = 'world aa'
 console.log('; log ', hello)
 
 export const hello2 = 'world'
