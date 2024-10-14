@@ -1,7 +1,7 @@
 export const hello = 'world aa'
 console.log('; log ', hello)
 
-export const hello2 = 'world'
+export const hello2 = 'world bb'
 console.log('; log ', hello)
 
 export const hello3 = 'world'
