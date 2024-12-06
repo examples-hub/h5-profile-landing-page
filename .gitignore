@@ -37,3 +37,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
+
+# Clacky-related files
+!.1024
+.1024*
