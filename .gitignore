@@ -41,3 +41,4 @@ yarn-error.log*
 # Clacky-related files
 !.1024
 .1024*
+#. Other unnecessary generated files and directories can be added here as needed.
