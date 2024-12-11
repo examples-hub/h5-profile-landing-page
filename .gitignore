@@ -39,8 +39,8 @@ yarn-error.log*
 *.tsbuildinfo
 
 # Clacky-related files
-!.1024
 .1024*
+!.1024
 .1024nix
 
 # Language-specific files
