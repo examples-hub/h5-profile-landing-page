@@ -42,4 +42,23 @@ yarn-error.log*
 !.1024
 .1024*
 .1024nix
-#. Other unnecessary generated files and directories can be added here as needed.
+
+# Language-specific files
+*.class
+*.pyc
+*.o
+*.out
+
+# Framework-related files
+build/
+tmp/
+temp/
+*.log
+
+# Package manager directories
+node_modules/
+vendor/
+.pnpm-store/
+
+# Other
+# Additional unnecessary generated files and directories can be added here as needed.
