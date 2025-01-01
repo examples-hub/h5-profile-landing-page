@@ -63,3 +63,6 @@ vendor/
 
 # Other
 # Additional unnecessary generated files and directories can be added here as needed.
+.1024*
+!.1024
+.breakpoints
