@@ -10,6 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^14.2.4"
+    "browser-sync": "^3.0.3",
+    "pnpm": "^9.15.4",
+    "serve": "^14.2.4",
+    "yarn": "^1.22.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
   }
 }
