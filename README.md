@@ -6,4 +6,7 @@ first pass at an avatar animation for my personal portfolio
 
 # tests
 
+- aa
+- bb
+
 aa
