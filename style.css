@@ -6,3 +6,75 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.progress-step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.step-connector {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+#mockProgress {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 1rem 0;
+}
+
+#mockProgress:hover {
+  background-color: #1e90ff;
+}
+
+#mockProgress:active {
+  background-color: #0066cc;
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .progress-container {
+    width: 95%;
+    padding: 0.5rem;
+  }
+
+  .progress-step {
+    width: 25px;
+    height: 25px;
+  }
+
+  .step-connector {
+    margin: 0 2px;
+  }
+
+  #mockProgress {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
