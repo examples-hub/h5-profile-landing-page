@@ -11,4 +11,3 @@ first pass at an avatar animation for my personal portfolio
 - bb
 
 aa
-Ï
