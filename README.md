@@ -5,7 +5,7 @@ first pass at an avatar animation for my personal portfolio
 
 - open http://localhost:9000/
 
-# tests 1200
+# tests 1622
 
 - aa
 - bb
