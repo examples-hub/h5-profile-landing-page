@@ -6,3 +6,90 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
+/* Progress Bar Container Styles */
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Progress Step Styles */
+.progress-step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  border: 2px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+/* Active Progress Step Style */
+.progress-step.active {
+  background-color: dodgerblue;
+  border-color: #0066cc;
+}
+
+/* Mock Progress Button Styles */
+.mock-progress-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.mock-progress-button:hover {
+  background-color: #45a049;
+}
+
+.mock-progress-button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .progress-bar {
+    width: 90%;
+  }
+  
+  .progress-step {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .mock-progress-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-step {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .mock-progress-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
