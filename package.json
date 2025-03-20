@@ -4,7 +4,7 @@
   "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/uptonking/pen/QWdqEmr](https://codepen.io/uptonking/pen/QWdqEmr).",
   "main": "index.js",
   "scripts": {
-    "dev":"serve ./folder11/",
+    "dev":"serve -p 9009 ./folder11/",
     "start":"serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
